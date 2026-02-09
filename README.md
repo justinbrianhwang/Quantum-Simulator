@@ -3,6 +3,10 @@
 A research-grade quantum circuit simulator with an interactive GUI.
 Built entirely with **PyQt6 + NumPy + Matplotlib** -- no Qiskit, no Cirq, no additional dependencies.
 
+<img width="1919" height="1006" alt="image" src="https://github.com/user-attachments/assets/a47f16c9-fea4-4494-b7de-68ae5ce8cd3a" />
+
+
+
 ```
 python main.py
 ```
