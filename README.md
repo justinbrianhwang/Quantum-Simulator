@@ -3,7 +3,7 @@
 A research-grade quantum circuit simulator with an interactive GUI.
 Built entirely with **PyQt6 + NumPy + Matplotlib** -- no Qiskit, no Cirq, no additional dependencies.
 
-<img width="1919" height="1006" alt="image" src="https://github.com/user-attachments/assets/a47f16c9-fea4-4494-b7de-68ae5ce8cd3a" />
+
 
 
 
@@ -39,30 +39,7 @@ pip install PyQt6 numpy matplotlib
 ---
 
 ## GUI Overview
-
-```
-+------------------------------------------------------------+
-|  Menu Bar   |  File  Edit  Circuit  Simulation  View  Help |
-+-------------+----------------------------------------------+
-|  Toolbar    |  Run (F5)  Step (F6)  Reset  | Qubits | Seed |
-+-------------+------+---------------------------------------+
-| Gate Palette|      |                              | Props  |
-| - H         |      |     Circuit Editor           | Panel  |
-| - X, Y, Z   |      |     (drag & drop gates)      |        |
-| - Rx, Ry, Rz|      |                              |        |
-| - CNOT, CZ  |      |  q0: |0> ----[H]---[*]----   |        |
-| - SWAP      |      |  q1: |0> -----------[+]----   |        |
-| - Toffoli   |      |                              |        |
-| - Measure   |      |                              |        |
-+-------------+------+------------------------------+--------+
-|  Visualization Tabs (13 tabs)                              |
-|  [StateVec] [Bloch] [Histogram] [Density] [Entanglement]  |
-|  [Entropy] [Fidelity] [Analysis] [Debugger] [Comparison]  |
-|  [Optimizer] [QEC] [Resources]                             |
-+------------------------------------------------------------+
-|  Status Bar: Qubits | Gates | Sim time | Seed | Bridge     |
-+------------------------------------------------------------+
-```
+<img width="1919" height="1006" alt="image" src="https://github.com/user-attachments/assets/a47f16c9-fea4-4494-b7de-68ae5ce8cd3a" />
 
 ---
 
